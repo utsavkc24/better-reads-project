@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <nav
+        class="navbar navbar-expand-lg navbar-light bg-light"
+        style="padding-bottom: 20px"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/">Better Reads</a>
+        </div>
+      </nav>
+
+      <div th:insert="components/book-search :: search-panel"></div>
+      <p>Book Not Found</p>
+    </div>
+  </body>
+</html>
