@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-SpringGitHubLoginApplication<github-auth-template>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "io.javabrains.betterreads.SpringGitHubLoginApplication",
+            "projectName": "github-auth-template",
+            "args": ""
+        }
+    ]
+}
