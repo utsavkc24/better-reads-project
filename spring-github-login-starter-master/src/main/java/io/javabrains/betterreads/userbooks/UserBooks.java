@@ -8,6 +8,9 @@ import org.springframework.data.cassandra.core.mapping.Column;
 import org.springframework.data.cassandra.core.mapping.PrimaryKey;
 import org.springframework.data.cassandra.core.mapping.Table;
 
+/**
+ * Model that represents a user's interaction with a specific book.
+ */
 @Table(value = "books_by_user_and_bookId")
 public class UserBooks {
 

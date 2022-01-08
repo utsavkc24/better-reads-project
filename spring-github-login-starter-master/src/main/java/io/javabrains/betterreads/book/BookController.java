@@ -30,7 +30,7 @@ public class BookController {
         if (optionalBook.isPresent()) {
             Book book = optionalBook.get();
             model.addAttribute("book", book);
-            String coverImageUrl = "images/no-image.jpg";
+            String coverImageUrl = "images/no_image_available.png";
             if (book.getCoverIds() != null && book.getCoverIds().size() > 0) {
                 coverImageUrl = COVER_IMAGE_ROOT + book.getCoverIds().get(0) + "-L.jpg";
             }

@@ -41,7 +41,7 @@ public class SearchController {
                     if (StringUtils.hasText(coverId)) {
                         coverId = COVER_IMAGE_ROOT + coverId + "-M.jpg";
                     } else {
-                        coverId = "/image/not-found";
+                        coverId = "images/no_image_available.png";
                     }
                     bookresult.setCover_i(coverId);
                     return bookresult;
